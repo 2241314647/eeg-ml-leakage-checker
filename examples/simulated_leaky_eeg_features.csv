@@ -1,0 +1,9 @@
+split,subject_id,session_id,trial_id,window_id,label,alpha_power,beta_power,theta_power,erp_peak_ms,connectivity_cz_pz,target_mean_leaky
+train,S01,session_a,T01,W01,1,0.91,0.84,0.76,0.79,0.88,1
+train,S01,session_a,T01,W02,1,0.89,0.85,0.75,0.80,0.87,1
+test,S01,session_a,T01,W02,1,0.89,0.85,0.75,0.80,0.87,1
+train,S02,session_a,T01,W01,0,0.10,0.08,0.11,0.09,0.12,0
+val,S03,session_a,T02,W01,1,0.82,0.80,0.79,0.83,0.86,1
+test,S04,session_a,T03,W01,0,0.12,0.10,0.09,0.11,0.08,0
+train,S05,session_a,T01,W01,1,0.77,0.81,0.80,0.84,0.79,1
+val,S05,session_a,T02,W01,1,0.78,0.82,0.80,0.83,0.80,1
