@@ -1,6 +1,14 @@
 # Upload to GitHub
 
-Automated upload was blocked because the GitHub CLI token for account `2241314647` returned `HTTP 401: Requires authentication`.
+Automated upload has now been completed once for this project.
+
+Repository:
+
+```text
+https://github.com/2241314647/eeg-ml-leakage-checker
+```
+
+The reusable workflow is:
 
 Run these commands after logging in with GitHub CLI:
 

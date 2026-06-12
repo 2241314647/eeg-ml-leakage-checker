@@ -14,7 +14,10 @@
   - Git metadata is stored in `D:\Codex 自动化\eeg-github-projects\.gitdirs\eeg-ml-leakage-checker.git` with a `.git` pointer file because direct `.git` directory creation was denied in this sandbox.
 - GitHub upload:
   - Proxy `http://127.0.0.1:7897` was available and set for the upload attempt.
-  - `gh repo create 2241314647/eeg-ml-leakage-checker --public` failed with `HTTP 401: Requires authentication`; the saved GitHub CLI token for `2241314647` is invalid.
+  - Initial upload attempt failed with `HTTP 401: Requires authentication`; after GitHub CLI authentication was refreshed, the workflow was completed.
+  - Created public repository: `https://github.com/2241314647/eeg-ml-leakage-checker`.
+  - Pushed branch `main` to `origin/main`.
+  - Verified remote default branch `main` and public visibility with GitHub CLI.
 
 ## Implementation Summary
 
